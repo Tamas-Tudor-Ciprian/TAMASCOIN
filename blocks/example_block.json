@@ -3,12 +3,10 @@
   "confirmations": 342,
   "size": 1234567,
   "height": 600000,
-  "version": 536870912,
   "merkleroot": "4d5d9d3e6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
   "tx": [
     {
       "txid": "coinbase_txid_001",
-      "version": 1,
       "size": 204,
       "vin": [
         {
@@ -34,7 +32,6 @@
     },
     {
       "txid": "regular_txid_002",
-      "version": 2,
       "size": 225,
       "vin": [
         {
