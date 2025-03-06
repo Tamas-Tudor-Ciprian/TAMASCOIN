@@ -1,0 +1,72 @@
+{
+  "hash": "0000000000000000000d8b0a6b1f7c3b4c9f8e5d2a1b0c9d8e7f6a5b4c3d2e1f",
+  "confirmations": 342,
+  "size": 1234567,
+  "height": 600000,
+  "version": 536870912,
+  "merkleroot": "4d5d9d3e6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+  "tx": [
+    {
+      "txid": "coinbase_txid_001",
+      "version": 1,
+      "size": 204,
+      "vin": [
+        {
+          "coinbase": "036a0101",
+          "sequence": 4294967295
+        }
+      ],
+      "vout": [
+        {
+          "value": 12.5,
+          "n": 0,
+          "scriptPubKey": {
+            "asm": "OP_DUP OP_HASH160 ab680c2db1e94b1d8ab26f3f443caef76f0f324a OP_EQUALVERIFY OP_CHECKSIG",
+            "hex": "76a914ab680c2db1e94b1d8ab26f3f443caef76f0f324a88ac",
+            "reqSigs": 1,
+            "type": "pubkeyhash",
+            "addresses": [
+              "1CoinbaseAddressExample"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "txid": "regular_txid_002",
+      "version": 2,
+      "size": 225,
+      "vin": [
+        {
+          "txid": "prev_txid_abc123",
+          "vout": 0,
+          "scriptSig": {
+            "asm": "3045022100f3b3...01 02",
+            "hex": "483045022100f3b3...012102..."
+          },
+          "sequence": 4294967294
+        }
+      ],
+      "vout": [
+        {
+          "value": 0.25,
+          "n": 0,
+          "scriptPubKey": {
+            "asm": "OP_DUP OP_HASH160 89abcdefabbaabbaabbaabbaabbaabbaabbaabba OP_EQUALVERIFY OP_CHECKSIG",
+            "hex": "76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac",
+            "reqSigs": 1,
+            "type": "pubkeyhash",
+            "addresses": [
+              "1RegularTxAddressExample"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "time": 1591878432,
+  "nonce": 123456789,
+  "bits": "170db232",
+  "difficulty": 231982.12345678,
+  "previousblockhash": "0000000000000000000f98a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7"
+}
