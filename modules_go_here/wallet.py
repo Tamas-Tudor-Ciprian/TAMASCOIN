@@ -1,4 +1,4 @@
-import random
+import secrets
 
 
 
@@ -8,4 +8,3 @@ class wallet_manager:
 
     def generate_new_wallet(self):
         pass
-
